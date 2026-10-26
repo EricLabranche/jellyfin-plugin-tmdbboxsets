@@ -1,0 +1,21 @@
+
+[
+  {
+    "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
+    "name": "TMDb Box Sets - Eric Edition",
+    "description": "Custom TMDb Box Sets plugin with configurable movie library filtering and safeguards to preserve existing collections. Based on Jellyfin TMDb Box Sets v15.",
+    "overview": "TMDb Box Sets with library filtering and collection protection",
+    "owner": "EricLabranche",
+    "category": "MoviesAndShows",
+    "versions": [
+      {
+        "version": "15.0.0.0",
+        "changelog": "Eric Edition v15.0.0-eric.1: configurable library filtering, preservation of existing collections, official v15 queue-handling improvements. Tested with Jellyfin Server 12.3.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/EricLabranche/jellyfin-plugin-tmdbboxsets/releases/download/v15.0.0-eric.1/TMDbBoxSets-v15.0.0-eric.1.zip",
+        "checksum": "c8b156069dcde58179cc977b9dea5e20",
+        "timestamp": "2026-10-26T16:07:21Z"
+      }
+    ]
+  }
+]
