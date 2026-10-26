@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Jellyfin.Plugin.TMDbBoxSets.Configuration;
 using MediaBrowser.Common.Configuration;

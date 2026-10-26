@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -58,7 +58,7 @@ public class RefreshLibraryTask : IScheduledTask, IDisposable
     public IEnumerable<TaskTriggerInfo> GetDefaultTriggers()
     {
         // Run this task every 24 hours
-        return [new TaskTriggerInfo { Type = TaskTriggerInfo.TriggerInterval, IntervalTicks = TimeSpan.FromHours(24).Ticks }];
+        return [new TaskTriggerInfo { Type = TaskTriggerInfoType.IntervalTrigger, IntervalTicks = TimeSpan.FromHours(24).Ticks }];
     }
 
     /// <inheritdoc/>
